@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #62D0DF;
+    width: 100vw;
+   
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle
+{
+    display: flex;
+    margin-top: 151px;
+    margin-left: 178px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+}
+
+.txt
+{
+    width: 555px;
+
+    display: flex;
+    margin-top: 75px;
+    margin-left: 178px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.pic
+{
+    background-image: url(3911f6d8121c1c2c9689.png);
+    width: 525px;
+    height: 604px;
+    background-repeat: no-repeat;
+}

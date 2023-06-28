@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+ 
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
+.main
+{
+
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(84, 2, 151);
+
+    .allMessages
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        .myMessage
+        {
+            margin: 20px;
+            display: flex;
+            align-items: end;
+            flex-direction: column;
+           
+            .massagesData
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .message
+            {
+                display: flex;
+                width: auto;
+                background-color: antiquewhite;
+                border-radius: 5%;
+                border-left:20px solid antiquewhite;
+                border-bottom-right-radius: 16px 14px;
+                padding: 5px;
+            }
+        }
+
+        .foreignMessage
+        {
+            margin: 20px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+           
+            .massagesData
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .message
+            {
+                display: flex;
+                width: auto;
+                background-color: antiquewhite;
+                border-radius: 5%;
+                border-left:20px solid antiquewhite;
+                border-bottom-left-radius: 16px 14px;
+                padding: 5px;
+            }
+        }
+        
+    }
+}

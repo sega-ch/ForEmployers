@@ -1,0 +1,14 @@
+{
+  "name": "servertest",
+  "version": "1.0.0",
+  "description": "Try to work with github api",
+  "main": "task-2-2.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "octokit": "^2.0.14"
+  }
+}

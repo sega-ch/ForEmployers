@@ -1,0 +1,10 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    
+}
